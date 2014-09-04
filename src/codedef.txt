@@ -1,0 +1,60 @@
+// case-insensitive -- fix for variables 
+
+// upper lowercase?
+
+// and/or
+// stop
+
+// :labels -- run them as they come up, but error on no matching return
+
+// functions with inputs/outputs and LOCAL keyword for scope.
+def fn
+
+// arrays.
+
+/*
+print, int, string, loop, to, end, as, next,
+step, if, then, else, goto, fn, return, returns
+*/
+
+print "text"
+
+int a = 1 + 2
+string b = "text"
+a = 1 + 2
+b = "text"
+1 * 2
+1 / 2
+1 % 2
+1 - 2
+
+loop 0 to 10; a
+print a
+next
+loop 0 to 10 as b:
+print b
+next
+loop 0 to 10 as b step 2:
+print b
+next
+loop 0 to 10 step 2: print "hi"; next
+
+if a < b then print "next"
+if a > b then
+if a <= b or b >= a then
+if a >= b and b <= a
+if a != b
+if a = b goto myfunc
+
+fn myfunc:
+print "in here"
+return
+fn 100: print "hi"
+fn stuff: print "no"; return
+fn f2: print "a"; return "text"
+fn f3(int a, string b) returns (int, int, string): print a + b; return a, b, "done"
+fn f4(string s) returns (int):
+return len(s)
+fn f5(string s) returns (int): i = len(s); return i
+
+

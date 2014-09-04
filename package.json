@@ -1,0 +1,13 @@
+{
+  "name": "sole128",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server ./src"
+  },
+  "author": "",
+  "type": "module"
+}
