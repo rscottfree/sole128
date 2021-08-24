@@ -47,6 +47,9 @@ _IMPORTANT: Code uses some APIs no longer present in modern browsers, and most t
 - Go to `http://localhost:8000/sole128.html`
 - Try `run "code.prg"`
 
+## Demo
+https://rscottfree.github.io/sole128/src/sole128.html
+
 ## Acknowledgments
 The series of posts starting with the link below inspired this project. If you know
 nothing about where to start with building a compiler, try this.
