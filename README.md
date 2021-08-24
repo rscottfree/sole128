@@ -49,6 +49,7 @@ _IMPORTANT: Code uses some APIs no longer present in modern browsers, and most t
 
 ## Demo
 https://rscottfree.github.io/sole128/src/sole128.html
+You can run the example program by typing `run "code.prg"` and hitting enter.
 
 ## Acknowledgments
 The series of posts starting with the link below inspired this project. If you know
